@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/bname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="请输入空闲区名称">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/badr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:numeric="integer"
+        android:hint="请输入空闲区首址" />
+
+    <EditText
+        android:id="@+id/bsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:numeric="integer"
+        android:hint="请输入空闲区大小"/>
+
+    <Button
+        android:id="@+id/add_more_block"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="＋再增加一个空闲分区" />
+
+</LinearLayout>
